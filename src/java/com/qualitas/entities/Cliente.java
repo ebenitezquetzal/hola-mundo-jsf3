@@ -1,0 +1,83 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.qualitas.entities;
+
+/**
+ *
+ * @author ebenitez
+ */
+public class Cliente {
+    private String nombre;
+    private String contrato;
+    private String marca;
+    private int modelo;
+    
+    public Cliente(String nombre,String contrato,
+            String marca,int modelo){
+        this.nombre = nombre;
+        this.contrato = contrato;
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * @return the contrato
+     */
+    public String getContrato() {
+        return contrato;
+    }
+
+    /**
+     * @param contrato the contrato to set
+     */
+    public void setContrato(String contrato) {
+        this.contrato = contrato;
+    }
+
+    /**
+     * @return the marca
+     */
+    public String getMarca() {
+        return marca;
+    }
+
+    /**
+     * @param marca the marca to set
+     */
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    /**
+     * @return the modelo
+     */
+    public int getModelo() {
+        return modelo;
+    }
+
+    /**
+     * @param modelo the modelo to set
+     */
+    public void setModelo(int modelo) {
+        this.modelo = modelo;
+    }
+    
+    
+}
